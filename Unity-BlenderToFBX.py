@@ -10,7 +10,7 @@ bpy.ops.export_scene.fbx(
     check_existing=False,
     use_selection=False,
     use_active_collection=False,
-    object_types={'ARMATURE','CAMERA','LIGHT','MESH','OTHER','EMPTY'},
+    object_types={'ARMATURE','MESH','OTHER','EMPTY'},
     use_mesh_modifiers=True,
     mesh_smooth_type='OFF',
     use_custom_props=True,
